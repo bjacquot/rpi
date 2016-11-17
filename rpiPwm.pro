@@ -9,4 +9,11 @@ CONFIG -= app_bundle
 
 TEMPLATE = app
 
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    io/pwmclk.cpp \
+    io/rpiperipherique.cpp \
+    io/pwm.cpp
+HEADERS += \
+    io/pwmclk.h \
+    io/rpiperipherique.h \
+    io/pwm.h
