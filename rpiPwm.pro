@@ -12,8 +12,10 @@ TEMPLATE = app
 SOURCES += main.cpp \
     io/pwmclk.cpp \
     io/rpiperipherique.cpp \
-    io/pwm.cpp
+    io/pwm.cpp \
+    io/gpio.cpp
 HEADERS += \
     io/pwmclk.h \
     io/rpiperipherique.h \
-    io/pwm.h
+    io/pwm.h \
+    io/gpio.h
